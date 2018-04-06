@@ -1,5 +1,6 @@
-#Written By: Carlo Viqueira
-#Purpose: Connect to Exchange Mailbox to download attachment
+# Written By: Carlo Viqueira
+# Purpose: Connect to Exchange Mailbox to download attachment
+# Tested in Python 2.7
 
 from exchangelib import Account, Credentials, Configuration, FileAttachment, UTC_NOW
 from Cryptodome.Cipher import AES
